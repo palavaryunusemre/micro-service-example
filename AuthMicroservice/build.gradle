@@ -1,0 +1,6 @@
+dependencies {
+    implementation libs.springBootDataJpa
+    implementation libs.postgreSQl
+    implementation libs.lombok
+    annotationProcessor libs.lombok
+}

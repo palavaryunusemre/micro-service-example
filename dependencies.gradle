@@ -1,9 +1,14 @@
 ext{
     versions = [
-            springBoot          : '3.3.1'
+            springBoot          : '3.3.1',
+            postgreSQl          : '42.7.4',
+            lombok              : '1.18.34'
     ]
 
     libs = [
-            springBootStarterWeb    : "org.springframework.boot:spring-boot-starter-web:${versions.springBoot}"
+            springBootStarterWeb    : "org.springframework.boot:spring-boot-starter-web:${versions.springBoot}",
+            springBootDataJpa       : "org.springframework.boot:spring-boot-starter-data-jpa:${versions.springBoot}",
+            postgreSQl              : "org.postgresql:postgresql:${versions.postgreSQl}",
+            lombok                  : "org.projectlombok:lombok:${versions.lombok}"
     ]
 }
