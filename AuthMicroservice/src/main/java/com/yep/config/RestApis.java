@@ -8,5 +8,6 @@ public class RestApis {
     public static final String AUTHSERVICE = DEVELOPER+VERSIONS+"/auth";
     public static final String REGISTER = "/register";
     public static final String LOGIN = "/login";
+    public static final String CREATE_USER = "/create-user";
 
 }
