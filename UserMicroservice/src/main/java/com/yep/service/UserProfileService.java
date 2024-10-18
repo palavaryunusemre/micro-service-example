@@ -4,7 +4,6 @@ import com.yep.document.UserProfile;
 import com.yep.dto.request.CreateUserRequestDto;
 import com.yep.repository.UserProfileRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.cache.CacheManager;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
