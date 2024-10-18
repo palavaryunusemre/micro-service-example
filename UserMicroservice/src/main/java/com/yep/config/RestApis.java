@@ -6,4 +6,5 @@ public class RestApis {
     public static final String USERPROFILE = DEVELOPER+VERSIONS+"/user-profile";
     public static final String CREATE_USER = "/create-user";
     public static final String GET_ALL = "/get-all";
+    public static final String GET_UPPER_NAME = "/upper-name";
 }
