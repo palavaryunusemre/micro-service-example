@@ -49,7 +49,7 @@ Proje, Spring Cloud Config kullanmaktadır. Konfigürasyon ayarlarını uygun ş
 
 Bu proje, mikroservis mimarisini desteklemektedir. Spring Cloud bileşenleri (OpenFeign, Config Server/Client) bu amaçla entegre edilmiştir.
 
-## Docker konteynerlarının içeri aktarılması
+## Docker içeri aktarılması
 
 ````bash
 docker run -d --name postgresql -p 5432:5432 muhammedali55/postgresql:v.0.1
