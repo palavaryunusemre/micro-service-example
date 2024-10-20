@@ -16,10 +16,6 @@ Bu proje, Spring Boot tabanlı bir Java uygulamasıdır ve çeşitli Spring Clou
 - Lombok 1.18.34
 - JUnit (test için)
 
-## Proje Yapısı
-
-Bu proje, çoklu modül yapısına sahip bir Gradle projesidir. Ana proje, birden fazla alt projeyi içerir.
-
 ## Bağımlılıklar
 
 Proje aşağıdaki ana bağımlılıkları kullanmaktadır:
