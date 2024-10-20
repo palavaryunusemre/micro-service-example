@@ -34,7 +34,7 @@ Proje aşağıdaki ana bağımlılıkları kullanmaktadır:
 
 1. Bu repository'yi klonlayın:
    ```
-   git clone [repository_url]
+   git clone https://github.com/palavaryunusemre/micro-service-example
    ```
 2. Projeyi IDE'nizde açın.
 3. Gradle bağımlılıklarını yükleyin.
