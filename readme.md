@@ -44,37 +44,6 @@ Proje aşağıdaki ana bağımlılıkları kullanmaktadır:
 3. Gradle bağımlılıklarını yükleyin.
 4. Gerekli veritabanlarını (PostgreSQL, MongoDB, Redis) kurun ve yapılandırın.
 
-## Derleme
-
-Projeyi derlemek için aşağıdaki komutu kullanın:
-
-```
-./gradlew build
-```
-
-## Çalıştırma
-
-Uygulamayı çalıştırmak için:
-
-```
-./gradlew bootRun
-```
-
-## Test
-
-Testleri çalıştırmak için:
-
-```
-./gradlew test
-```
-
-## API Dokümantasyonu
-
-API dokümantasyonu için Swagger UI kullanılmaktadır. Uygulama çalışırken, Swagger UI'a aşağıdaki URL üzerinden erişebilirsiniz:
-
-```
-http://localhost:8080/swagger-ui.html
-```
 
 ## Konfigürasyon
 
