@@ -70,3 +70,40 @@ docker run -d --name mongodb -p 27017:27017 muhammedali55/mongodb:v.0.3
 ```bash
     docker run --name redis-gui -d -p 8001:8001 redislabs/redisinsight:1.14.0
 ```
+
+
+## Dockerfile ile image oluşturmak
+    DİKKAT!!!!
+    1-localinizde çalıştırılacak imajlar için kullanın
+
+```bash
+docker build -t configserver:v01 .
+
+```
+    2-docker hub üzerinde yayınlanacak ise 
+```bash
+docker build -t yunusemrepalavar/socialmediaconfigserver:v0.1 .
+
+docker push yunusemrepalavar/socialmediaconfigserver:v0.1
+
+
+docker build -t yunusemrepalavar/socialmediaauth:v0.1 .
+
+docker push yunusemrepalavar/socialmediaauth:v0.1
+
+
+docker build -t yunusemrepalavar/socialmediauser:v0.1 .
+
+docker push yunusemrepalavar/socialmediauser:v0.1
+
+
+
+
+```
+    3- Eğer M chip bir macOs var ise
+```bash
+docker build --platform linux/amd64 -t yunusemrepalavar/configserver:v01 .
+
+```
+
+
