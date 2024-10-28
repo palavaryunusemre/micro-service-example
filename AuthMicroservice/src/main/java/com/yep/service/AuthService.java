@@ -17,7 +17,9 @@ public class AuthService {
     private final UserProfileManager userProfileManager;
 
     @Transactional
-    public Auth register(RegisterRequestDto dto) {
+    public String register(RegisterRequestDto dto) {
+        if(!dto.getPassword().equals((dto.getRePassword())))
+            return  "Şifreler uyuşmuyor.";
         Auth auth = repository.save(Auth.builder()
                 .userName(dto.getUserName())
                 .email(dto.getEmail())
@@ -28,7 +30,7 @@ public class AuthService {
                         .email(auth.getEmail())
                         .username(auth.getUserName())
                 .build());
-        return auth;
+        return "Kayıt başarılı.";
     }
 
     public Boolean login(LoginRequestDto dto) {
